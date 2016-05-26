@@ -19,6 +19,14 @@ body
     letter-spacing: 1.3px;
 }
 
+#info_icon
+{
+    height:50px;
+    width:50px;
+    border-radius:7px;
+    float:left;
+}
+
 div
 .horizontalgap
 {
