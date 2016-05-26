@@ -10,6 +10,7 @@ body
     font-size:30px;
     letter-spacing: 1.3px;
 }
+
 div
 .horizontalgap
 {
@@ -18,3 +19,26 @@ div
 	height:1px;
 	width:0px;
 }
+
+.centered {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.logo {
+	position: absolute;
+	float: left;
+	width:75px;
+	margin: 5px;
+	border:5px solid black;
+	border-radius: 250px;				
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	-webkit-animation:spin 4s linear infinite;
+	-moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+}
+	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
