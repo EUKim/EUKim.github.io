@@ -11,6 +11,14 @@ body
     letter-spacing: 1.3px;
 }
 
+#info_div
+{
+    top:25px;
+    position: relative;
+    font-size:20px;
+    letter-spacing: 1.3px;
+}
+
 div
 .horizontalgap
 {
