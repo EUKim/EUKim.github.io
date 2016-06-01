@@ -64,3 +64,15 @@ div
 {
 	font-size:15px;
 }
+
+.link:hover
+{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.link
+{
+    color:#2196F3;
+}
+
+
